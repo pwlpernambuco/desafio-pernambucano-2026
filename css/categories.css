@@ -4,9 +4,13 @@
 .cat-header h3{font-family:'Barlow Condensed',sans-serif;font-size:1.1rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold)}
 .cat-rows{padding:.5rem 0}
 .cat-row{display:flex;justify-content:space-between;align-items:center;padding:.5rem 1.4rem;border-bottom:1px solid rgba(26,80,160,.1);transition:background .15s;gap:1rem}
-.cat-ipf{display:flex;flex-direction:column;align-items:flex-end;gap:.15rem;flex-shrink:0}
-.cat-ipf-label{font-size:.62rem;color:rgba(240,244,250,.28);letter-spacing:.05em;text-transform:uppercase}
-.cat-ipf-val{font-family:'Barlow Condensed',sans-serif;font-size:.88rem;font-weight:700;color:rgba(240,244,250,.65);background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:3px;padding:.15rem .5rem;white-space:nowrap}
+.cat-col-headers{display:flex;justify-content:space-between;align-items:center;padding:.4rem 1.4rem .5rem;gap:1rem;border-bottom:1px solid rgba(212,168,67,.12)}
+.cat-col-headers span{font-size:.65rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:rgba(240,244,250,.28)}
+.cat-col-headers span:first-child{flex:1}
+.cat-col-headers span:nth-child(2){min-width:54px;text-align:center}
+.cat-col-headers span:last-child{min-width:60px;text-align:right}
+.cat-ipf{flex-shrink:0;min-width:60px;text-align:right}
+.cat-ipf-val{font-size:.75rem;font-weight:700;padding:.18rem .55rem;border-radius:3px;letter-spacing:.05em;background:rgba(20,160,140,.2);color:#4dd9c8;display:inline-block}
 .cat-row:last-child{border-bottom:none}
 .cat-row:hover{background:rgba(26,80,160,.07)}
 .cat-name{font-family:'Barlow Condensed',sans-serif;font-size:.98rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--white)}
